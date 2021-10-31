@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Reservaciones</title>
+</head>
+<body>
+
+    <header>Ciclo3</header>
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="motocicleta.html">Motocicletas</a></li>
+            <li><a href="categoria.html">Categorias</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="mensajes.html">Mensajes</a></li>
+            <li><a href="">Reservas</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        
+
+        <div id="contenedor1">
+            <p>Reservaciones</p>
+
+                <input type="date" id="fecha" placeholder="Fecha inicio">
+                <input type="date" id="devolucion" placeholder="Fecha devolucion">
+                <button onclick="infoReserva()">Consultar</button>
+                <button onclick="guardarReserva()">Guardar</button>
+
+            <div id="impresion"></div>
+
+        </div>
+
+        <div id="contenedor2">
+            <p>Estado Reservas</p>
+            
+
+
+
+        <button onclick="infoEstados()">Consultar Estados</button>
+
+        <div id="impresionEstado"></div>
+
+
+        </div>
+
+    </section>
+    <article></article>
+
+
+
+
+    <footer>
+        Wilmer Giovanny Vanegas Sanchez  |  Misión TIC   |  2021
+    </footer>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

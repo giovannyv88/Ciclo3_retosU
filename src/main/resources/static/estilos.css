@@ -1,0 +1,161 @@
+
+    body{
+      background-image: "fondo.jpg";
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: cover;
+      margin: 0;
+    }
+
+header{
+    
+    height: 170px;
+    background-image: "fondo1.png";
+    color:white;
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 6px 6px black, 10px 10px #9ACFF8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  h2{
+
+    font-size: 4.3em;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 6px 6px rgba(12, 138, 241, 0.432);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+  }
+
+  p{
+    font-size: 2em;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    background-color:#333;
+    height: 5em;
+    text-align: center;
+    width: 100%;
+    line-height: 5;
+    font-size: 1em;
+    color: white;
+  }
+
+  article{
+    height: 30em;
+    width: 100%;
+    
+  }
+
+  #contenedor1{
+    width: 50%;
+    height: 20em;
+    margin-left: 25%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 10px 0px #146276 inset;
+    text-align: center;
+    
+  }
+
+  #contenedor2{
+
+    width: 50%;
+    height: 20em;
+    margin-left: 25%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 10px 0px #146276 inset;
+    text-align: center;
+    
+  }
+
+  table{
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+table, th, td {
+  margin-top: 2%;
+  margin-left: 20%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color:#BADEFA;
+  padding: 5px;
+  
+}
+
+input[type=text]{
+  width: 15%;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: #417B9E;
+}
+
+input[type=number]{
+  width: 15%;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: #417B9E;
+
+}
+
+input[type=password]{
+  width: 15%;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: #417B9E;
+
+}
+input[type=date]{
+  width: 15%;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: #417B9E;
+
+}
+
+
+
+button{
+   
+  background-color:#43B1F0;
+  padding: 10px;
+  background: linear-gradient(180deg, #65bce8 0%, #306485 100%);
+  font-family:candara;
+  font-weight: bold;
+
+}
+
+
+
